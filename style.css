@@ -40,6 +40,11 @@
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+.logo {
+    position: absolute; /* add this to position the logo absolutely */
+    bottom: 0; /* position the logo at the bottom of the page */
+    left: 0; /* position the logo at the left edge of the page */
+}
 .messageStyle{
 	background: white;
 	padding: 30px;
