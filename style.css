@@ -45,9 +45,9 @@
     height: auto; /* maintain the aspect ratio */
     margin: 0; /* remove any margins */
     display: block;
-    position: fixed; /* add this to position the logo fixed */
-    bottom: 0; /* position the logo at the bottom of the page */
-    left: 0; /* position the logo at the left edge of the page */
+    position: absolute; /* add this to position the logo fixed */
+    top: 80%; /* position the logo at the bottom of the page */
+    left: 50%; /* position the logo at the left edge of the page */
 }
 .messageStyle{
 	background: white;
