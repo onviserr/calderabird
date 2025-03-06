@@ -46,7 +46,7 @@
     margin: 20px auto; /* adjust the margin as needed */
     display: block;
     position: absolute; /* add this to position the logo absolutely */
-    bottom: 20px; /* position the logo 20px from the bottom of the viewport */
+    bottom: 20px; /* position the logo 50px from the bottom of the viewport */
     left: 50%; /* center the logo horizontally */
     transform: translateX(-50%); /* adjust the logo's position to be perfectly centered */
 }
