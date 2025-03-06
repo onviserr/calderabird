@@ -39,16 +39,6 @@
 	font-size: 4em;
 	transform: translate(-50%, -50%);
 	text-align: center;
-	margin-bottom: 50px; /* add a margin bottom to the text */
-}
-.message-image {
-    width: 20vw; /* reduce the width to 20% of the viewport width */
-    height: auto; /* maintain the aspect ratio */
-    margin: 20px 0 0 0; /* add a margin top to the logo */
-    display: block;
-    position: absolute; /* add this to position the logo absolutely */
-    bottom: 0; /* position the logo at the bottom of the page */
-    left: 0; /* position the logo at the left edge of the page */
 }
 .messageStyle{
 	background: white;
