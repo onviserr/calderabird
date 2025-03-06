@@ -38,15 +38,17 @@
 	left: 50%;
 	font-size: 4em;
 	transform: translate(-50%, -50%);
-	text-align: center;
+	text-align: left;
 }
 .message-image {
     width: 20vw; /* reduce the width to 20% of the viewport width */
     height: auto; /* maintain the aspect ratio */
+    margin: 0; /* remove any margins */
     display: block;
-    position: absolute; /* add this to position the logo fixed */
-    bottom: 80%; /* position the logo at the bottom of the page */
+    position: absolute; /* add this to position the logo absolutely */
+    bottom: 0; /* position the logo at the bottom of the page */
     left: 0; /* position the logo at the left edge of the page */
+    transform: none; /* remove any transformations */
 }
 .messageStyle{
 	background: white;
