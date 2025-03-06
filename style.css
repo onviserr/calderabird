@@ -45,10 +45,10 @@
     height: auto; /* maintain the aspect ratio */
     margin: 20px auto; /* adjust the margin as needed */
     display: block;
-    position: fixed; /* add this to position the logo fixed */
+    position: absolute; /* add this to position the logo fixed */
     bottom: 0; /* position the logo at the very bottom of the page */
-    left: 50%; /* center the logo horizontally */
-    transform: translateX(-50%); /* adjust the logo's position to be perfectly centered */
+    left: 0; /* center the logo horizontally */
+    transform: translateX(-10%); /* adjust the logo's position to be perfectly centered */
 }
 .messageStyle{
 	background: white;
