@@ -14,8 +14,8 @@
     background-size: cover;
 }
 .bird {
-	height: 130px;
-	width: 130px;
+	height: 100px;
+	width: 100px;
 	position: fixed;
 	top: 40vh;
 	left: 30vw;
@@ -27,7 +27,7 @@
 	left: 100vw;
 	height: 70vh;
 	width: 6vw;
-	background:radial-gradient(lightorange 50%, orange);
+	background:radial-gradient(lightgreen 50%, green);
 	border: 5px solid black;
 }
 .message {
