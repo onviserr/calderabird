@@ -38,7 +38,7 @@
 	left: 50%;
 	font-size: 4em;
 	transform: translate(-50%, -50%);
-	text-align: centre;
+	text-align: center;
 	margin-bottom: 50px; /* add a margin bottom to the text */
 }
 .message-image {
