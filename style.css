@@ -43,12 +43,11 @@
 .message-image {
     width: 20vw; /* reduce the width to 20% of the viewport width */
     height: auto; /* maintain the aspect ratio */
-    margin: 20px auto; /* adjust the margin as needed */
+    margin: 0; /* remove any margins */
     display: block;
-    position: absolute; /* add this to position the logo fixed */
-    bottom: 0; /* position the logo at the very bottom of the page */
-    left: 0; /* center the logo horizontally */
-    transform: translateX(-10%); /* adjust the logo's position to be perfectly centered */
+    position: fixed; /* add this to position the logo fixed */
+    bottom: 0; /* position the logo at the bottom of the page */
+    left: 0; /* position the logo at the left edge of the page */
 }
 .messageStyle{
 	background: white;
