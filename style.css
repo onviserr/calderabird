@@ -40,6 +40,12 @@
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+.message-image {
+    width: 50vw; /* adjust the width to 50% of the viewport width */
+    height: auto; /* maintain the aspect ratio */
+    margin: 20px auto; /* adjust the margin as needed */
+    display: block;
+}
 .messageStyle{
 	background: white;
 	padding: 30px;
