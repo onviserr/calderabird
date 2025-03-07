@@ -40,15 +40,6 @@
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
-.logo {
-    position: absolute; 
-    bottom: 0%; 
-    left: 50%; 
-    transform: translateX(-50%); /* add this to center the logo horizontally */
-    width: 10px; /* reduce the width of the logo */
-    height: 10px; /* maintain the aspect ratio */
-    margin: 10px; /* add a margin around the logo */
-}
 .messageStyle{
 	background: white;
 	padding: 30px;
