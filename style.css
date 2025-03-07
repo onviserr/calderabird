@@ -41,10 +41,11 @@
 	text-align: center;
 }
 .logo {
-    position: absolute; /* add this to position the logo absolutely */
-    bottom: 0%; /* position the logo at the bottom of the page */
-    left: 50%; /* position the logo at the left edge of the page */
-    width: 10px; /* reduce the width of the logo */
+    position: absolute; 
+    bottom: 0%; 
+    left: 50%; 
+    transform: translateX(-50%); /* add this to center the logo horizontally */
+    width: 50px; /* reduce the width of the logo */
     height: auto; /* maintain the aspect ratio */
     margin: 10px; /* add a margin around the logo */
 }
